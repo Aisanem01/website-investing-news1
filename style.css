@@ -1,0 +1,133 @@
+body {
+  background-size: cover;
+  background-position: left, right;
+  background-attachment: fixed, fixed;
+  text-align: center;
+  background-image: url("../img/lamp1.jpg");
+  height: 100% ;
+  width: 100%;
+}
+div {
+  text-align: center;
+  margin: 0px 0px;
+}
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.section-header h1 {
+  font-size: 70px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #777;
+  font-family: Lucida Console, Copperplate;
+}
+.text h5 {
+  font-size: 40px; 
+  color:#555;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  font-family: 'Montagu Slab', serif;
+}
+nav {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover {
+  background: #444;
+}
+video1 {
+  justify-content: center;
+  padding: 20px;
+}
+.flex-container {
+  display: flex; 
+  flex-direction: column;
+}
+.flex-container > div {
+  padding: 30px;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div.image img{
+  width: 750px;
+  height: 580px;
+}
+.image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("apple.jpg");
+  position: relative;
+}
+.hypper_text {
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+footer {
+  background: #222;
+  color: #777;
+  padding: 25px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+footer img {
+  display: block;
+  border-radius: 5px;
+  width: 80px;
+  margin: 0 auto 5px;
+}
